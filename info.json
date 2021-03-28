@@ -3,6 +3,7 @@
         {
             "url": "https://www.whatismybrowser.com/guides/the-latest-user-agent/chrome",
             "regex": "(?is).*?\"code\".*?>(.*?)<.*",
+            "delay": 604800,
             "get": "git-auto",
             "data": null,
             "update": null
