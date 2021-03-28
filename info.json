@@ -3,14 +3,14 @@
         {
             "url": "https://www.whatismybrowser.com/guides/the-latest-user-agent/chrome",
             "regex": "(?is).*?\"code\".*?>(.*?)<.*",
-            "get": "auto",
+            "get": "git-auto",
             "data": null,
             "update": null
         }
     ],
     "manual": [
         {
-            "get": "manual",
+            "get": "git-manual",
             "data": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
             "update": "2021-03-28"
         }
